@@ -92,11 +92,15 @@ PING google.com (142.251.128.78) 56(84) bytes of data.
 4 packets transmitted, 4 received, 0% packet loss, time 3005ms
 
 rtt min/avg/max/mdev = 53.906/55.177/55.734/0.742 ms
-
-          
-
+     
 4. Ferramentas PING simples em Python
+
+Vamos usar a biblioteca 'system' do python este modulo fornece uma maneira simples de usar funcionalidades que são dependentes do sistema operacional.
+Ex: ping. Iremos chamar atraves do python dentro do sistema operacional.
+
 5. Ferramenta PING multilpos em Python
+
+
 
 
 
