@@ -45,6 +45,23 @@ O Ser humano tem necessidade de segurança;
 
 5. Principios da Segurança da Informação
 
+.Integridade: Proteger a informação de alteração indevidas.
+
+.Confidencialidade: Manter uma informação confidencial.
+
+.Disponibilidade: Garantir que um recurso e/ou informação esteja dispoivel.
+
+.Identificação: Visa identificaar uma entidade
+
+.Autenticação: Verifica a entidade e suas credenciais
+
+.Autorização: Autorizar a entidade dentro de um sistema.
+
+.Não Repudio:Evitar que uma entidade negue suas ações em um sistema.
+
+
+
+
 
 
  
