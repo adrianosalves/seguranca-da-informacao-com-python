@@ -1,5 +1,4 @@
-# seguran-a-da-informacao-com-python
-segurança-da-informacao-com-python
+#Segurança-da-informacao-com-python
 
 Pq?
 
@@ -58,6 +57,47 @@ O Ser humano tem necessidade de segurança;
 .Autorização: Autorizar a entidade dentro de um sistema.
 
 .Não Repudio:Evitar que uma entidade negue suas ações em um sistema.
+
+# ICMP Ping - O que é ping?
+
+1. O que é ICMP? (Pilar da Segurança 'Disponibilidade')
+
+É protocolo integrante do Protocolo IP e consiste em enviar mensagem de relatorio de erro.
+Ela serve pra testar a conectividade entre nós, envia pacotes para equipamento de destino e na 'escuta' das respostas.
+
+3. O que é Ping?
+
+Host A     <----------------->     Server
+
+           ----->  Echo Request
+
+           Echo Reply <----------
+
+Exemplo:
+
+$ ping google.com -c 4
+
+PING google.com (142.251.128.78) 56(84) bytes of data.
+
+64 bytes from gru06s69-in-f14.1e100.net (142.251.128.78): icmp_seq=1 ttl=115 time=55.6 ms
+
+64 bytes from gru06s69-in-f14.1e100.net (142.251.128.78): icmp_seq=2 ttl=115 time=55.7 ms
+
+64 bytes from gru06s69-in-f14.1e100.net (142.251.128.78): icmp_seq=3 ttl=115 time=55.4 ms
+
+64 bytes from gru06s69-in-f14.1e100.net (142.251.128.78): icmp_seq=4 ttl=115 time=53.9 ms
+
+--- google.com ping statistics ---
+
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+
+rtt min/avg/max/mdev = 53.906/55.177/55.734/0.742 ms
+
+          
+
+4. Ferramentas PING simples em Python
+5. Ferramenta PING multilpos em Python
+
 
 
 
